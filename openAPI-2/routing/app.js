@@ -98,7 +98,7 @@ async function placeSearch(currentPosition) {
             category.name === "Coffee Shop" || category.name === "Café"
         )
       ) {
-        var infoWindow = new google.maps.InfoWindow({
+        const infoWindow = new google.maps.InfoWindow({
           content:
             "Name: " +
             result.name +
